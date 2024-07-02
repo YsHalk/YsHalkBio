@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>YsHalk</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+  <style>
+    body {
+      background-color: #222;
+      color: #eee;
+    }
+</html>
+  <style>
+    body {
+      background-color: #222;
+      color: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 10vh;
+    }
+    .container {
+      background-color: #333;
+      border-radius: 10px;
+      padding: 1px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      animation: glow 0.5s infinite alternate;
+    }
+    h1 {
+      font-family: 'fantasy, bold';
+      font-size: 1.5em;
+      color: #eee;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    }
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+      }
+      to {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+      }
+    }
+  </style>
+  <div class="container">
+    <h1>YsHalk</h1>
+  </div>
+
+  <div class="social-links">
+    <a href="https://discord.gg/CMHJZ5znnZ" target="_blank">
+      <button class="social-button discord">
+        <i class="fab fa-discord"></i> Discord
+      </button>
+    </a>
+    <a href="https://t.me/BazaHalka" target="_blank">
+      <button class="social-button telegram">
+        <i class="fab fa-telegram-plane"></i> Telegram
+      </button>
+    </a>
+    <a href="https://www.tiktok.com/@yshalk1" target="_blank">
+      <button class="social-button tiktok">
+        <i class="fab fa-tiktok"></i> TikTok
+      </button>
+    </a>
+  </div>
+  <style>
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .social-button {
+      background-color: #333;
+      color: #eee;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin: 0 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .social-button:hover {
+      background-color: #eee;
+      color: #222;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    }
+    .social-button i {
+      margin-right: 5px;
+    }
+    .discord {
+      background-color: #7289da;
+    }
+    .telegram {
+      background-color: #0088cc;
+    }
+    .tiktok {
+      background-color: #000000;
+    }
+  </style>
+  <style>
+    .frames-container {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .frame {
+      display: inline-block;
+      width: 200px;
+      height: 250px;
+      margin: 10px;
+      border-radius: 10px;
+      background-color: #333;
+      color: #eee;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .frame img {
+      width: 200%;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .frame h3 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .frame p {
+      margin-top: 5px;
+    }
+    .frame button {
+      background-color: #eee;
+      color: #222;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+  <style>
+    .frames-container {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .frame {
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+      margin: 15px;
+      border-radius: 10px;
+      background-color: #333;
+      color: #eee;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .frame img {
+      width: 27%;
+      height: 50px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .frame h3 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .frame p {
+      margin-top: 10px;
+    }
+    .frame button {
+      background-color: #eee;
+      color: #222;
+      border: none;
+      padding: 10px 40px;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+  </style>
+  <script src="script.js"></script>
+</body>
+</html>
+  <style>
+    .secret-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #eee;
+      color: #222;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 100;
+    }
+  </style>
+  <div class="frames-container">
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 1">
+      <h3>10 Robux</h3>
+      <p>Support me with 10R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848126414'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 2">
+      <h3>50 Robux</h3>
+      <p>Support me with 50R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848266078'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 3">
+      <h3>100 Robux</h3>
+      <p>Support me with 100R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848159361'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 4">
+      <h3>150 Robux</h3>
+      <p>Support me with 150R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/847989990'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 5">
+      <h3>200 Robux</h3>
+      <p>Support me with 200R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848195150'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 6">
+      <h3>300 Robux</h3>
+      <p>Support me with 300R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848301070'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 7">
+      <h3>500 Robux</h3>
+      <p>Support me with 500R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848289044'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 8">
+      <h3>800 Robux</h3>
+      <p>Support me with 800R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848259132'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 9">
+      <h3>1000 Robux</h3>
+      <p>Support me with 1000R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848291092'">Donate</button>
+    </div>
+    <div class="frame">
+      <img src="https://cdn.discordapp.com/attachments/1247268171384094893/1257620803495661660/BackgroundEraser_20240702_115544704.png?ex=66851225&is=6683c0a5&hm=5c2cd8c38927120f174c7a5ca3f53219632713cb293dcbb26573f551b5db1764&" alt="Frame 10">
+      <h3>1500 Robux</h3>
+      <p>Support me with 1500R$</p>
+      <button onclick="window.location.href='https://www.roblox.com/game-pass/848269045'">Donate</button>
+    </div>
+  </div>
+
+</style>
+  <button class="secret-button" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">Free Robux</button>
+
+<style>
+  body {
+    background: linear-gradient(to bottom, #333, #000); /* Add gradient here */
+    color: #eee;
+    display: auto;
+    justify-content: center;
+    align-items: center;
+     min-height: 10vh;
+   }
+</style>
+  <script>
+    window.addEventListener('scroll', function() {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 100) {
+        document.body.classList.add('scroll-active');
+      } else {
+        document.body.classList.remove('scroll-active');
+      }
+    });
+  </script>
+  <style>
+    .scroll-active {
+      padding-top: 60px;
+      transition: padding-top 0.3s ease;
+    }
+  </style>
+  <style>
+    .frames-container {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      perspective: 1000px; /* Add perspective for 3D effect */
+    }
+    .frame {
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+      margin: 15px;
+      border-radius: 10px;
+      background-color: #333;
+      color: #eee;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transform-style: preserve-3d; /* Enable 3D transforms */
+      transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    }
+    .frame:hover {
+      transform: translateZ(-50px); /* Move card forward on hover */
+    }
+    .frame img {
+      width: 27%;
+      height: 50px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .frame h3 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .frame p {
+      margin-top: 10px;
+    }
+    .frame button {
+      background-color: #eee;
+      color: #222;
+      border: none;
+      padding: 10px 40px;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+  </style>
+  <style>
+    .frames-container {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      transition: transform 0.3s ease-in-out; /* Add smooth transition */
+    }
+    .frame {
+      display: inline-block;
+      width: 300px;
+      height: 200px;
+      margin: 15px;
+      border-radius: 10px;
+      background-color: #333;
+      color: #eee;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease-in-out; /* Add smooth transition */
+    }
+    .frame img {
+      width: 27%;
+      height: 50px;
+      border-radius: 10px;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out; /* Add smooth transition */
+    }
+    .frame h3 {
+      margin-top: 10px;
+      font-size: 1.2em;
+      transition: transform 0.3s ease-in-out; /* Add smooth transition */
+    }
+    .frame p {
+      margin-top: 10px;
+      transition: transform 0.3s ease-in-out; /* Add smooth transition */
+    }
+    .frame button {
+      background-color: #eee;
+      color: #222;
+      border: none;
+      padding: 10px 40px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out; /* Add smooth transition */
+    }
+  </style>
+
+  <style>
+    .frame button {
+      background-color: #eee;
+      color: #222;
+      border: none;
+      padding: 10px 40px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .frame button:hover {
+      background-color: #222;
+      color: #eee;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    }
+  </style>
+
+  <style>
+    .troll-button {
+      position: fixed;
+      top: 380px;
+      right: 0px;
+      background-color: #eee;
+      color: #222;
+      border: none;
+      padding: 100px 190px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 100;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .troll-button:hover {
+      opacity: 0;
+    }
+  </style>
+  <style>
+    .frames-container {
+      display: fixed;
+      overflow-x: auto;
+      white-space: nowrap;
+      overflow-y: auto;
+    }
+  </style>
+  <script>
+    const framesContainer = document.querySelector('.frames-container');
+    const frames = document.querySelectorAll('.frame');
+    let isDragging = false;
+    let startX;
+
+    framesContainer.addEventListener('mousedown', (e) => {
+      if (e.target.classList.contains('frame')) {
+        isDragging = true;
+        startX = e.clientX;
+        framesContainer.style.cursor = 'grabbing';
+      }
+    });
+
+    framesContainer.addEventListener('mousemove', (e) => {
+      if (isDragging) {
+        const deltaX = e.clientX - startX;
+        framesContainer.scrollLeft -= deltaX;
+        startX = e.clientX;
+      }
+    });
+
+    framesContainer.addEventListener('mouseup', () => {
+      isDragging = false;
+      framesContainer.style.cursor = 'grab';
+    });
+
+    framesContainer.addEventListener('mouseleave', () => {
+      isDragging = false;
+      framesContainer.style.cursor = 'grab';
+    });
+  </script>
